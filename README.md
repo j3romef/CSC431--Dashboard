@@ -10,7 +10,7 @@ LiftX will help solve this problem by offering users an easy to use interface th
 
 ## Team Members
 
-* Kyle biggs - Front End Developer
-* Moose Griffth - Software Engineer
+* Kyle Biggs - Front End Developer
+* Moose Griffith - Software Engineer
 * Christopher Rodriguez - Lead Architect
 * Jerome Fleischman - Team Leader & Scrum Master
