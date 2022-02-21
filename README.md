@@ -1,6 +1,6 @@
 # CSC431--LiftX Project
 
-This is the repository for Team 3's LiftX project for CSC431, Spring 2022
+This is the repository for Team 3's LiftX project for CSC431, Spring 2022.
 
 ## LiftX Project Description
 
