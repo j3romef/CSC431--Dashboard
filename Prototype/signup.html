@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liftx</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="header-content-liftx">
+              <a href="./index.html" class="brand-logo mobile-show">
+                <img
+                  class="brand-image"
+                  src="./images/dumbbell.png"
+                  alt="Asphalt Aces"
+                />
+              </a>
+              <h1><a href="./index.html">LIFTx</a></h1>
+            </div>
+            <nav class="navbar">
+              <ul class="nav-list">
+                <li class="nav-item-btn nav-item-btn-register">
+                  <a href="./signup.html" class="nav-link-btn">Register</a>
+                </li>
+                <li class="nav-item-btn nav-item-btn-login">
+                  <a href="./login.html" class="nav-link-btn">Login</a>
+                </li>
+              </ul>
+            </nav>
+
+            <i id="menu-bar" class="fas fa-bars"></i>
+          </div>
+        </div>
+      </header>
+
+      <!-- Login -->
+      <section class="register">
+        <div class="register-content">
+          <div class="register-logo"><i class="fas fa-sign-out-alt"></i></div>
+          <form class="register-form">
+            <div class="register-form-control">
+              <label for="name"><i class="fas fa-user-circle"></i></label>
+              <input type="name" id="name" placeholder="Name" required />
+            </div>
+            <div class="register-form-control">
+              <label for="email"><i class="fas fa-envelope"></i></label>
+              <input type="email" id="email" placeholder="Email ID" required />
+            </div>
+            <div class="register-form-control">
+              <label for="password"><i class="fas fa-lock"></i></label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="register-form-control">
+              <label for="password"><i class="fas fa-lock"></i></label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Confirm Password"
+                required
+              />
+            </div>
+            <div class="register-form-control">
+              <button type="submit" class="btn-register-submit">
+                Register
+              </button>
+            </div>
+            <div class="register-form-control">
+              <div class="register-form-control-flex-item">
+                <span class="register-account">Already have an account?</span>
+                <a href="./login.html" class="btn-register-signup"
+                  >Login Here</a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="footer-text">© 2022 LiftX. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+      // Hamburger
+      let menu = document.querySelector("#menu-bar");
+      let navbar = document.querySelector(".navbar");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("fa-times");
+        navbar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
