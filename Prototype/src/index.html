@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liftx</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-content-liftx">
+            <a href="./index.html" class="brand-logo mobile-show">
+              <img
+                class="brand-image"
+                src="./images/dumbbell.png"
+                alt="Asphalt Aces"
+              />
+            </a>
+            <h1><a href="./index.html">LIFTx</a></h1>
+          </div>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="./dashboard.html" class="nav-link">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Log Exercise</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Account Settings</a>
+              </li>
+              <li class="nav-item-btn nav-item-btn-register">
+                <a href="./signup.html" class="nav-link-btn">Register</a>
+              </li>
+              <li class="nav-item-btn nav-item-btn-login">
+                <a href="./login.html" class="nav-link-btn">Login</a>
+              </li>
+            </ul>
+          </nav>
+
+          <i id="menu-bar" class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="showcase">
+      <video src="./images/hero-video.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="showcase-container">
+        <div class="showcase-content">
+          <h2 class="showcase-title">
+            <span class="showcase-title-sp">Weightlifting</span> Progress
+            <br />
+            <span class="showcase-title-sp">Made</span>
+            Easy
+          </h2>
+          <p class="showcase-desc">
+            Sign Up for a new account today to start hitting personal records!
+          </p>
+          <a class="btn btn-showcase" href="#">Sign Up</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What is LiftX -->
+    <section class="what-liftx">
+      <div class="container">
+        <div class="what-liftx-content">
+          <div class="what-liftx-item">
+            <h2 class="what-liftx-title">What is LiftX?</h2>
+            <p class="what-liftx-desc">
+              Weightlifting Progress Made Easy!
+            </p>
+            <p class="what-liftx-desc">
+              A one stop shop for tracking and visualizing your lifting
+              progress!
+            </p>
+          </div>
+          <div class="what-liftx-img">
+            <img src="./images/what-liftx.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weightlifting World -->
+    <section class="weight-world">
+      <div class="container">
+        <div class="weight-world-content">
+          <div class="weight-world-img">
+            <img src="./images/reach-goals.jpg" alt="" />
+          </div>
+          <div class="weight-world-item">
+            <h2 class="weight-world-title">
+              The World of Weightlifting is Confusing
+            </h2>
+            <p class="weight-world-desc">Let us do the hard work for you.</p>
+            <p class="weight-world-desc">
+              Choose from a variety of specially curated training programs to
+              achieve your desired goals!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Set-Forget -->
+    <section class="set-forget">
+      <div class="container">
+        <div class="set-forget-content">
+          <div class="set-forget-item">
+            <h2 class="set-forget-title">Stay on Track</h2>
+            <p class="set-forget-desc">
+              Our platform will remind you when you are falling off schedule!
+            </p>
+            <p class="set-forget-desc">
+              Signing up is easy, we'll walk you through it one step at a time.
+            </p>
+          </div>
+          <div class="set-forget-img">
+            <img src="./images/on-track.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps-Registration -->
+    <section class="steps-registration">
+      <div class="container">
+        <div class="steps-registration-content">
+          <h2 class="steps-registration-title">How To Sign Up?</h2>
+          <div class="steps-registration-logo">
+            <img
+              src="./images/emailpass.jpg"
+              class="steps-registration-logo-link"
+              alt=""
+            />
+
+            <span class="steps-registration-icon"
+              ><i class="fas fa-angle-double-right"></i
+            ></span>
+
+            <img
+              src="./images/liftx-logo.png"
+              class="steps-registration-logo-link"
+              alt=""
+            />
+
+            <span class="steps-registration-icon"
+              ><i class="fas fa-angle-double-right"></i
+            ></span>
+
+            <img
+              src="./images/startmakinggains.png"
+              class="steps-registration-logo-link coin-base"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="footer-text">© 2022 LiftX. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+      // Hamburger
+      let menu = document.querySelector("#menu-bar");
+      let navbar = document.querySelector(".navbar");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("fa-times");
+        navbar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
